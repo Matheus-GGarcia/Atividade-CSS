@@ -75,32 +75,63 @@ header {
 }
 
 main {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(221, 58, 58);
     border-radius: 30px;
-    width: 10%;
+    width: 20%;
     padding: 20px;
     margin: 20px auto; /* Centraliza o main */
 }
 
 .box h1 {
-    color: rgb(241, 41, 41);
+    color: rgb(179, 3, 3);
     text-align: center;
 }
 
 main #CONTATOS {
     text-align: center; 
+    gap: 20px;
+
+ 
 }
 
 main .container {
-    display: flex;
+
     justify-content: center; 
-    padding: 15px; 
+    padding: 15px 0; 
+    
+   
 }
 main.social {
-    justify-items: center;
     padding: 15px; 
     border-radius: 15px; 
-    display: flex; 
     gap: 20px; 
     align-items: center; 
+    background-color: #e12323; 
+    
+    
+}
+main a img{
+    width: 90px;
+    justify-items: center;
+    gap: 30px;
+    display: inline;
+}
+
+.footer {
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+
+}
+
+.footer-text {
+    margin: 0;
+    font-weight: bold;
+
+}
+
+.footer-email {
+    margin: 5px 0 0;
+    color: white;
+    text-decoration: none;
 }
